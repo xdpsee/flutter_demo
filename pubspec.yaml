@@ -1,0 +1,35 @@
+name: drip
+description: my life
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  stream: ^2.2.1
+  rxdart: ^0.22.0
+  dio: ^2.1.7
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.5.3+1
+  random_string: ^0.0.2
+  preferences: ^3.0.0
+  flutter_bloc: ^0.15.1
+  equatable: ^0.2.0
+  pull_to_refresh: ^1.4.3
+  toast: ^0.1.4
+  path_provider: ^0.5.0+1
+  flutter_cache_manager: ^0.3.2
+  cached_network_image: ^0.8.0
+  sqflite: ^1.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
